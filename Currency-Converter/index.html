@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Cool currency converter project which was created using HTML, CSS and JavaScript"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="icon" href="coin.png" />
+    <title>Cool Currency Converter</title>
+  </head>
+  <body>
+    <main>
+      <section class="hero">
+        <header>
+          <img src="coin.png" class="coin-img" alt="coin" />
+          <ul>
+            <li><a href="#" class="list-link">Home</a></li>
+            <li><a href="#converter" class="list-link">Converter</a></li>
+            <li><a href="#code" class="list-link">Code</a></li>
+          </ul>
+        </header>
+        <div class="layout">
+          <div class="hero-box">
+            <h1>
+              Cool <span class="highlight">currency</span><br />
+              <span class="highlight">converter</span> project
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+              ea, explicabo enim vel deleniti sunt illo, quos id excepturi a
+              fuga nam iusto deserunt provident, commodi quasi atque ad
+              consequatur?
+            </p>
+            <a href="#converter" class="btn">Try it out</a>
+          </div>
+          <img src="animation.svg" class="animation" alt="animation" />
+        </div>
+      </section>
+      <section class="created-with">
+        <img
+          class="secondary-animation"
+          src="secondary-animation.svg"
+          alt="animation"
+        />
+        <div class="created-with-text-box">
+          <h2>
+            This little project was created <br />
+            using <span class="underline"> HTML</span> ,
+            <span class="underline"> CSS</span> and
+            <span class="underline"> JavaScript </span>
+          </h2>
+          <a href="#converter" class="btn">Try it out</a>
+        </div>
+      </section>
+      <section class="input-fields">
+        <div class="input-fields-box">
+          <h3 id="converter">Currency Converter</h3>
+          <div class="us">
+            <img class="flag" src="us-flag.png" alt="us flag" />
+            <input type="number" id="input--us" />
+          </div>
+          <div class="uk">
+            <img class="flag" src="uk-flag.png" alt="uk flag" />
+            <input type="number" id="input--uk" />
+          </div>
+          <div class="euro">
+            <img class="flag" src="europe-flag.png" alt="europe flag" />
+            <input type="number" id="input--europe" />
+          </div>
+        </div>
+        <img
+          src="tertiary-animation.svg"
+          class="tertiary-animation"
+          alt="animation"
+        />
+      </section>
+    </main>
+    <footer id="code">
+      <ul>
+        <li><a href="#" class="list-link">Github</a></li>
+        <li><a href="#" class="list-link">Home</a></li>
+        <li><a href="#converter" class="list-link">Converter</a></li>
+      </ul>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
